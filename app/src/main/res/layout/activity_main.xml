@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:padding="20dp"
+    a:orientation="vertical"
+    a:gravity="center">
+
+<!--    title-->
+    <TextView
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Calculator App"
+        a:textSize="24sp"
+        a:textStyle="bold"
+        a:gravity="center"
+        a:layout_marginBottom="20dp"/>
+
+    <!-- First Number Label & Input -->
+    <TextView
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Enter First Number"
+        a:textSize="16sp"
+        a:textStyle="bold"
+        a:layout_marginBottom="4dp"/>
+
+    <EditText
+        a:id="@+id/etNumber1"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:hint="First Number"
+        a:inputType="numberDecimal"
+        a:padding="10dp"/>
+
+    <!-- Second Number Label & Input -->
+    <TextView
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Enter Second Number"
+        a:textSize="16sp"
+        a:textStyle="bold"
+        a:layout_marginTop="10dp"
+        a:layout_marginBottom="4dp"/>
+
+    <EditText
+        a:id="@+id/etNumber2"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:hint="Second Number"
+        a:inputType="numberDecimal"
+        a:padding="10dp"/>
+
+    <!-- Buttons -->
+    <Button
+        a:id="@+id/btnAdd"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Add"
+        a:layout_marginTop="20dp"/>
+
+    <Button
+        a:id="@+id/btnSubtract"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Subtract"
+        a:layout_marginTop="10dp"/>
+</LinearLayout>
